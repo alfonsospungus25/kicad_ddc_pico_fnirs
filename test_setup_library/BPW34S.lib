@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BPW34S
+#/624745/512945/2.49/2/0/Diode
+DEF BPW34S D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "BPW34S" 450 100 50 H V L CNN
+F2 "BPW34S" 450 0 50 H I L CNN
+F3 "http://www.vishay.com/docs/81521/bpw34.pdf" 450 -100 50 H I L CNN
+F4 "Photodiodes Top view 430-1100nm +/-65 deg" 450 -200 50 H I L CNN "Description"
+F5 "2" 450 -300 50 H I L CNN "Height"
+F6 "78-BPW34S" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/BPW34S?qs=RzxYCzJDjPXfPQ7CnEzYMQ%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "BPW34S" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 2 0 0 200 R 50 50 0 0 P
+X ~ 1 600 0 200 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library
